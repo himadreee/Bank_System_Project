@@ -1,0 +1,26 @@
+.card {
+    background-color: #ffffff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a card effect */
+    padding: 20px; /* Padding inside the card */
+    margin: 15px; /* Margin around the card */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth hover effect */
+  
+    &:hover {
+      transform: translateY(-5px); /* Lifts the card slightly on hover */
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+    }
+  
+    h3 {
+      font-size: 1.5rem; /* Adjust the title font size */
+      color: #2c3e50; /* Dark blue color */
+      margin-bottom: 10px; /* Space between title and content */
+    }
+  
+    p {
+      font-size: 1rem; /* Content font size */
+      color: #7f8c8d; /* Lighter text color */
+      margin: 0; /* Remove default margin */
+    }
+  }
+  

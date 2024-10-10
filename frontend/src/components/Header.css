@@ -1,0 +1,80 @@
+/* src/components/Header.css */
+
+.banking-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2c3e50; /* Darker blue background */
+  color: white; /* Text color */
+  padding: 15px 30px; /* Padding for top/bottom and left/right */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Darker shadow for depth */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.banking-header:hover {
+  background-color: #004494; /* Even darker blue on hover */
+}
+
+.logo-section {
+  display: flex;
+  align-items: center; /* Center align items vertically */
+}
+
+.logo {
+  width: 50px; /* Adjust based on your logo size */
+  height: 50px; /* Adjust based on your logo size */
+  margin-right: 15px; /* Space between logo and bank name */
+}
+
+.bank-name h1 {
+  font-size: 24px; /* Adjust font size */
+  margin: 0; /* Remove default margin */
+}
+
+.nav-links {
+  flex-grow: 1; /* Allow navigation to take available space */
+}
+
+.nav-links ul {
+  display: flex; /* Use flexbox for navigation items */
+  list-style: none; /* Remove bullets from list */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.nav-links li {
+  margin: 0 15px; /* Space between links */
+  position: relative; /* Position for pseudo-elements */
+}
+
+.nav-links a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s, transform 0.3s; /* Smooth color and transform transition */
+}
+
+.nav-links a:hover {
+  color: #f0f0f0; /* Change link color on hover */
+  transform: scale(1.05); /* Slightly enlarge link on hover */
+}
+
+.user-actions {
+  display: flex;
+  align-items: center; /* Center align icons */
+}
+
+.user-actions a {
+  color: white; /* Icon color */
+  margin-left: 20px; /* Space between icons */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s, transform 0.3s; /* Smooth color and transform transition */
+}
+
+.user-actions i {
+  font-size: 20px; /* Adjust icon size */
+}
+
+.user-actions a:hover i {
+  color: #f0f0f0; /* Change icon color on hover */
+  transform: scale(1.2); /* Slightly enlarge icon on hover */
+}

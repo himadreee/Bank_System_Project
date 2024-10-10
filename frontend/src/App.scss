@@ -1,0 +1,10 @@
+// App.scss or another file for main styles
+.main-content {
+    margin-left: 250px; // Adjust based on sidebar width
+    transition: margin-left 0.3s ease; // Smooth transition for content shift
+  
+    &.sidebar-open {
+      margin-left: 70px; // Adjust margin when sidebar is open
+    }
+  }
+  

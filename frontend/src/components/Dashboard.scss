@@ -1,0 +1,54 @@
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f39c12;
+    padding: 10px;
+    color: white;
+  }
+  
+  .actions input {
+    width: 300px;
+    padding: 5px;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  .accounts-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .account-card {
+    background-color: #f39c12;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .assets-liabilities {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
